@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-function Quote() {
+function Quote({ click }) {
   const [quotes, setQuotes] = useState("");
   const [author, setAuthor] = useState("");
   useEffect(() => {
@@ -9,7 +9,7 @@ function Quote() {
         setQuotes(data.quote);
         setAuthor(data.author);
       });
-  }, []);
+  }, [click]);
 
   return (
     <>
