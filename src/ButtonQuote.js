@@ -1,4 +1,8 @@
 function QuoteButton({ setClick }) {
-  return <button onClick={setClick}>hello</button>;
+  return (
+    <button className="quote-button" onClick={setClick}>
+      GET A QUOTE
+    </button>
+  );
 }
 export default QuoteButton;
