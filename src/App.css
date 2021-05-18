@@ -22,12 +22,15 @@ body {
   display: flex;
   flex-direction: column;
   margin: 5vw 15vw;
-  padding: 10vw;
-  height: 20vh;
+  padding: 8vw;
+  height: 15vh;
   width: 60vw;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
   /* width: 75%; */
+}
+.icon-quote {
+  margin-right: 20px;
 }
 
 .quote-button {

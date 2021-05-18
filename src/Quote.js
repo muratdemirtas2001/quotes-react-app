@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from "react";
+import { FaQuoteLeft } from "react-icons/fa";
+
 function Quote({ click }) {
   const [quotes, setQuotes] = useState("");
   const [author, setAuthor] = useState("");
@@ -14,7 +16,10 @@ function Quote({ click }) {
   return (
     <>
       <div className="quote-wrapper">
-        <h1>{quotes}</h1>
+        <h1>
+          <FaQuoteLeft className="icon-quote"/>
+          {quotes}
+        </h1>
         <h2>{author}</h2>
       </div>
     </>
